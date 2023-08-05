@@ -1,0 +1,67 @@
+{
+  "name": "SampleBO",
+  "projectId": "57a5230c-4e0f-4b0b-87c6-e8374c985d9b",
+  "description": "Blank Library",
+  "main": "NewActivity.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "23.6.0-preview",
+    "UiPath.Testing.Activities": "23.6.0-preview",
+    "UiPath.UIAutomation.Activities": "[23.6.2-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.6.1.0",
+  "projectVersion": "1.0.1-dev.2",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Library",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "e4f511a7-af9f-402d-b861-a0cd0b9e2368",
+        "testCaseType": "TestCase",
+        "fileName": "CodedTestCase.cs"
+      }
+    ],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "CSharp",
+  "entryPoints": [
+    {
+      "filePath": "TestCodedWorkflow.cs",
+      "uniqueId": "96714f76-977e-40f1-ab3e-92a4ff32976a",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
